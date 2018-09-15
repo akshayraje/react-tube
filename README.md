@@ -1,12 +1,20 @@
 # React Tube
 
-Simple video tube React web-app powered by Firebase. Live demo at [https://react-tube-69997.firebaseapp.com/](https://react-tube-69997.firebaseapp.com/)
+Simple video tube React web-app powered by Firebase. Live demo: [https://react-tube-69997.firebaseapp.com/](https://react-tube-69997.firebaseapp.com/)
 
-Features:
+### Features:
 
 * Chronologically ordered videos in home page and tag pages
-* Client side routing for tag pages and video page
-* Sidebar with related videos based on tags of in the video page
+* Client side routing for [tag pages](https://react-tube-69997.firebaseapp.com/tag/Horror) and [video page](https://react-tube-69997.firebaseapp.com/video/r1nPFfwzHCf9WfKCRZRT/venom-2018-)
+* Sidebar with related videos based on tags of in the [video page](https://react-tube-69997.firebaseapp.com/video/2ebLhtVvpadsD1SXL9t9/a-quiet-place-2018-)
+* Contexual title and meta description
+
+### Upcoming Features:
+
+* Pagination for home page and tag pages
+* OAuth based login
+* Like videos
+* Profile page with a list of liked videos
 
 ## Setup steps
 
@@ -75,4 +83,4 @@ firebase login
 firebase deploy
 ```
 
-*[More information about using Firebase CLI and deployment](https://firebase.google.com/docs/cli/)
+[More information about using Firebase CLI and deployment](https://firebase.google.com/docs/cli/)
